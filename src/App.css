@@ -1,0 +1,9 @@
+.App {
+  font-family: "Lora", serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.App footer {
+  font-size: 11px;
+  margin: auto;
+}
