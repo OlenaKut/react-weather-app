@@ -32,7 +32,7 @@ export default function Weather() {
           />
           <span className="temperature">6</span>
           <span className="unit">
-            <a href="#">°C </a>|<a href="#">°F</a>
+            <a href="/">°C </a>|<a href="/">°F</a>
           </span>
         </div>
         <div className="col-6">
