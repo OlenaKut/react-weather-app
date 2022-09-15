@@ -29,7 +29,7 @@
 .Weather canvas {
   height: 56px;
   float: left;
-  margin: 22px 5px 0 0 
+  margin: 22px 5px 0 0;
 }
 .Weather .temperature {
   position: relative;
@@ -43,5 +43,4 @@
 }
 .Weather a {
   text-decoration: none;
-  color: #786f6a;
 }
