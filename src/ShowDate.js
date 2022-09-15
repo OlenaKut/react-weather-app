@@ -7,7 +7,7 @@ export default function ShowDate(props) {
     "Monday",
     "Tuesday",
     "Wednesday",
-    "Thursdy",
+    "Thursday",
     "Friday",
     "Saturday",
   ];
