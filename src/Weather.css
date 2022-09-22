@@ -26,10 +26,10 @@
   color: white;
   font-weight: 500;
 }
-.Weather canvas {
+.Weather .weatherIcon {
   height: 56px;
-  float: left;
   margin: 22px 5px 0 0;
+  float: left;
 }
 .Weather .temperature {
   position: relative;

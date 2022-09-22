@@ -1,0 +1,15 @@
+.WeatherForecast {
+  text-align: center;
+}
+.forecastTemp-min {
+  opacity: 0.7;
+  margin-left: 5px;
+}
+.WeatherForecast .weatherIcon {
+  float: none;
+  margin: 5px;
+  height: 0;
+}
+.forecastTemp {
+  margin-top: 40px;
+}
