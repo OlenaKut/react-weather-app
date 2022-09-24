@@ -23,7 +23,8 @@ export default function ShowDate(props) {
   return (
     <div>
       {" "}
-      Last updated: {day}, {hours}:{minutes}
+      Last updated:
+      <span className="day"> {day}</span>, {hours}:{minutes}
     </div>
   );
 }

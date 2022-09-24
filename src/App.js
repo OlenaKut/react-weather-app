@@ -15,7 +15,7 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            Olena Kutasevych
+          Olena Kutasevych
           </a>{" "}
           and is
           <a

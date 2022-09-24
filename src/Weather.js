@@ -8,6 +8,7 @@ export default function Weather(props) {
   const [weatherData, setweatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
   function handleResponse(response) {
+    console.log(response.data);
     setweatherData({
       ready: true,
       coords: response.data.coord,
@@ -22,7 +23,7 @@ export default function Weather(props) {
     });
   }
   function search() {
-    const apiKey = "a43564c91a6c605aeb564c9ed02e3858";
+    const apiKey = "203fa770242fcd2b9555d832a88ea567";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -30,7 +31,6 @@ export default function Weather(props) {
   function handleSubmit(event) {
     event.preventDefault();
     search();
-    //search for a city
   }
 
   function handleCityChange(event) {

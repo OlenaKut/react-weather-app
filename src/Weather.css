@@ -1,8 +1,8 @@
 .Weather {
   padding: 16px;
   margin: 30px auto 5px;
-  border: 1px solid rgb(240, 238, 236);
   border-radius: 10px;
+  box-shadow: 5px 5px 6px rgb(221, 203, 207);
 }
 .Weather h1 {
   color: #d87070;
@@ -21,8 +21,13 @@
   line-height: 22px;
   list-style: none;
 }
+.Weather .description,
+.properties {
+  color: #caa08b;
+}
+
 .Weather .btn {
-  background: #ffcab0;
+  background: #e5b59c;
   color: white;
   font-weight: 500;
 }
@@ -43,4 +48,7 @@
 }
 .Weather a {
   text-decoration: none;
+}
+.Weather .day {
+  color: #caa08b;
 }

@@ -1,7 +1,7 @@
 .WeatherForecast {
   text-align: center;
 }
-.forecastTemp-min {
+.WeatherForecast .forecastTemp-min {
   opacity: 0.7;
   margin-left: 5px;
 }
@@ -13,4 +13,6 @@
 .forecastTemp {
   margin-top: 40px;
 }
-
+.WeatherForecast .forecastTemp-max {
+  color: #d87070;
+}
